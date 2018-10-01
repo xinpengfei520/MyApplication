@@ -1,0 +1,1 @@
+include ':l08_app_endcallsms', ':l09_provide', ':l09_resolver', ':l09_app_contacts', ':l10_animation', ':l07_app_music', ':my_app_zxing', ':libqrcode', ':app', ':l10_app_animation1', ':l10_app_animation2', ':l11_graphics', ':l11_app_listview_pw'

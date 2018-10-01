@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromAlpha="1"
+    android:toAlpha="0">
+
+    <!-- Xml透明度动画: 从完全不透明到完全透明, 持续1s-->
+
+</alpha>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 设置圆角矩形的显示 -->
+    <corners android:radius="5dp"></corners>
+
+    <!-- 指定所作用的组件的颜色 -->
+    <solid android:color="#ff0000"></solid>
+
+    <!-- 以上两种情况使用较多：掌握。下面的情况做了解 -->
+
+    <!-- 设置内边距 -->
+    <padding
+        android:bottom="5dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="5dp"></padding>
+
+    <!-- 以上两种情况使用较多：掌握。下面的情况做了解 -->
+    <size
+        android:width="150dp"
+        android:height="80dp"></size>
+
+    <!-- 设置内部的渐变色 -->
+    <gradient
+        android:angle="135"
+        android:centerColor="#00ff00"
+        android:endColor="#0000ff"
+        android:startColor="#ff0000"></gradient>
+
+    <!--
+    设置外边框线条的效果
+    width：设置虚线的宽度
+    dashWidth：一条虚线的长度
+    dashGap：两条虚线间的间距
+    -->
+    <stroke
+        android:width="5dp"
+        android:color="#ff0000"
+        android:dashGap="25dp"
+        android:dashWidth="20dp"></stroke>
+
+</shape>

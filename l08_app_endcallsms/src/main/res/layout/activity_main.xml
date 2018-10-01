@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="黑名单号码列表"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_purple" />
+
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/et_main_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入或选择要拉黑的号码"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:inputType="phone">
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/btn_main_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择"
+            android:onClick="selectNumber"/>
+        <Button
+            android:id="@+id/btn_main_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拉黑"
+            android:onClick="addNumber"/>
+
+    </LinearLayout>
+
+</LinearLayout>

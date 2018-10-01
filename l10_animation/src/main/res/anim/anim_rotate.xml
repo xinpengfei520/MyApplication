@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="90"
+    android:toDegrees="-90"
+    android:duration="5000"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:interpolator="@android:anim/accelerate_interpolator">
+
+    <!-- Xml旋转动画: 以图片的中心点为坐标原点, 从正90度到负90度, 持续5s -->
+    <!--interpolator:设置动画的变化率,如何在xml中设置interpolator -->
+</rotate>
